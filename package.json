@@ -1,0 +1,19 @@
+{
+  "name": "cli-application",
+  "version": "1.0.0",
+  "description": "This is homework - 01 of Node.js Module 1",
+  "type": "module",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.mjs",
+    "start:dev": "nodemon index.mjs"
+  },
+  "keywords": [],
+  "author": "Joseph Camacho",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "nodemon": "^3.1.4"
+  }
+}
